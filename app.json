@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "Omlet_Arcade_2.0",
+    "slug": "Omlet_Arcade_2",
+    "version": "1.0.0",
+    "orientation": "portrait",
+  "icon": "./assets/images/Omlet_Arcade.webp",
+    "scheme": "omletarcade20",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/images/Omlet_Arcade.webp",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/Omlet_Arcade.webp",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true,
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/Omlet_Arcade.webp"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
